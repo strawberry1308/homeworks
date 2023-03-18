@@ -1,0 +1,34 @@
+.counter {
+  margin-bottom: 77px;
+}
+.counter button {
+  width: 44px;
+  height: 44px;
+  font-size: 40px;
+}
+.counter .count {
+  font-size: 36px;
+  margin: 30px 10px;
+}
+
+.cursor {
+  width: 500px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: cadetblue;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.cursor h2 {
+  margin-left: 44px;
+  font-size: 44px;
+}
