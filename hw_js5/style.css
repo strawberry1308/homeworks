@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#add {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+}
+#output {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.item input {
+  margin-right: 10px;
+}
+.edit {
+  margin-left: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c2ad2a;
+  color: white;
+}
+.delete {
+  margin-left: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+}
